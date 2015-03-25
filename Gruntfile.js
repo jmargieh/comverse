@@ -16,14 +16,14 @@ module.exports = function(grunt) {
       one_file: {
         options: {},
         files: [{
-          src: ['README.md'],
-          dest: 'README.html'
+          src: ['index.md'],
+          dest: 'index.html'
         }]
       }
     },
     watch: {
   		scripts: {
-    	files: ['**/*.md'],
+    	files: ['index.md'],
     	tasks: ['md2html'],
     	options: {
       	spawn: false
