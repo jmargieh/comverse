@@ -10,6 +10,7 @@
   "devDependencies": {
     "grunt-contrib-connect": "^0.9.0",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-html-validation": "^0.1.18",
     "grunt-md2html": "^0.2.1"
   },
   "scripts": {

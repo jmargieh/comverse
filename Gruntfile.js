@@ -29,7 +29,17 @@ module.exports = function(grunt) {
       	spawn: false
     	}
   	}
-}
+},
+validation: {
+			options: {
+				reset: grunt.option('reset') || false,
+				stoponerror: false,
+				relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'] //ignores these errors 
+			},
+			files: {
+				src: ['<%= dirs.dest %>/*.html']
+			}
+		}
   });
 
 
@@ -40,6 +50,7 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-connect'); // start server
 
+	grunt.loadNpmTasks('grunt-html-validation'); // html validation task
 
 	grunt.registerTask('default', 'Default Grunt Task Runner', function() {
   	grunt.task.run(['connect', 'md2html','watch']);
