@@ -16,17 +16,18 @@ module.exports = function(grunt) {
       one_file: {
         options: {},
         files: [{
-          src: ['index.md'],
-          dest: 'index.html'
+          src: ['outline.md'],
+          dest: 'outline.html'
         }]
       }
     },
     watch: {
   		scripts: {
-    	files: ['index.md'],
+    	files: ['outline.md'],
     	tasks: ['md2html'],
     	options: {
-      	spawn: false
+      	spawn: false,
+        //livereload: 8080
     	}
   	}
 },
@@ -44,7 +45,7 @@ validation: {
 
 
 
-  	grunt.loadNpmTasks('grunt-md2html'); // load ms2html grunt task
+  	grunt.loadNpmTasks('grunt-md2html'); // load md2html grunt task
 
   	grunt.loadNpmTasks('grunt-contrib-watch'); // load watch task
 
