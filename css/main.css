@@ -218,8 +218,11 @@ strong, b {
 
 .section-banner {
     padding-top:75px;
-    background: url(../img/banner-bg.jpg) no-repeat 0% 30%;
-    background-attachment: fixed;
+    background: url(images/bg.jpg) no-repeat 0% 30% fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     box-shadow: 0 0 5px 1px grey;
     z-index:200;
 }
