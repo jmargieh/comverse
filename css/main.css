@@ -5,7 +5,7 @@
  */
 
 /* ==========================================================================
-   STYLING COMVERSE WEBSITE
+   STYLING COMVERSE WEBSITE - JAWAD's CUSTOM STYLE
    ========================================================================== */
 
 .comverse-header {
@@ -35,7 +35,7 @@
 }
 
 .navbar {
-    font: 13px "Open Sans";
+    font-size: 13px;
     padding-top: 45px;
     float: left;
     position: relative;
@@ -60,6 +60,7 @@
     outline:0;
     padding: 0 11px 10px 11px;
     text-transform: uppercase;
+    font-weight: 200;
 }
 
 
@@ -131,6 +132,7 @@
     color: #a0a0a0;
     display:block;
     outline:0;
+    font-weight:200;
 }
 
 .subnav a:hover {
@@ -159,10 +161,143 @@
     float:left;
 }
 
+body {
+    margin: 0 auto;
+    color: #222;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    color:#FFF;
+    font-weight:100;
+    font-size:38px;
+    line-height: 1.1em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.2em;
+}
+
+h2{
+    font-size:24px;
+    color:#FFF;
+    font-weight:100;
+}
+
+h3{
+    color:#FFF;
+    font-weight:100;
+    font-size:20px;
+    line-height: 1.4em;
+    -webkit-margin-before: 0.53em;
+    -webkit-margin-after: 0.53em;
+}
 
 
-#banner {
+
+strong, b {
+  font-weight: 400;
+}
+
+.rounded-cube > section > a {
+    color:#FFF;
+    font-weight: 600;
+    font-size:14px;
+}
+
+.section-container {
+    padding: 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.section-banner {
     padding-top:75px;
+    background: url(../img/banner-bg.jpg) no-repeat 0% 30%;
+    background-attachment: fixed;
+    box-shadow: 0 0 5px 1px grey;
+    z-index:200;
+}
+
+.cubes-list{
+    padding: 0;
+    list-style: none;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: -2.2em;
+}
+
+.rounded-cube {
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.85;
+    padding: 10px 14px;
+    width: 264px;
+    cursor: pointer;
+}
+
+.rounded-cube:hover {
+    opacity: 1;    
+}
+
+.cube-title{
+    padding: 0;
+    margin-top: 0px;
+    height: 130px;
+}
+
+.cube-green { background:#5eb433; }
+.cube-purple { background:#fb429c; }
+.cube-orange { background:#ff7519; }
+
+.more-btn {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  padding: 8px 22px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #3196C9,  #1A8CC6);
+  background: -ms-linear-gradient(top,  #3196C9,  #1A8CC6);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3196C9), to(#1A8CC6));
+  background: -moz-linear-gradient(top,  #3196C9,  #1A8CC6);
+}
+.more-btn:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #36A8E1,  #1898D7);
+  background: -ms-linear-gradient(top,  #36A8E1,  #1898D7);
+  background: -webkit-gradient(linear, left top, left bottom, from(#36A8E1), to(#1898D7));
+  background: -moz-linear-gradient(top,  #36A8E1,  #1898D7);
+}
+
+.section-solutions{
+    box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
+    background:#46a2c7;
+    display:block;
+    height:420px;
+}
+
+.solutions-list > li {
+    display: inline-block;
+}
+
+.solutions-list > li > figure {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-solutions .section-container > h1 {
+    padding: 40px 0;
+    text-align: center;
 }
 
 
@@ -172,8 +307,9 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 1em
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
