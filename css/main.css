@@ -22,7 +22,7 @@
 .search_field {
     display: inline-block;
     float:right;
-    padding-top:45px;
+    padding-top:15px;
     position:relative;
 }
 
@@ -185,7 +185,23 @@ height:20px;
     margin:0px;
 }
 
+.nav-side-links {
+    float:right;
+    display:inline-block;
+    padding-top:10px;
+    color:#a0a0a0;
+}
 
+.nav-side-links a {
+    text-decoration: none;
+    outline:0;
+    font-weight:200;
+    color:#a0a0a0;
+}
+
+.nav-side-links a:hover {
+    color: #3399cc; 
+}
 
 
 .subnav-right {
@@ -194,12 +210,14 @@ height:20px;
     float:left;
 }
 
+
 body {
     margin: 0 auto;
     color: #222;
     font-size: 14px;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
 }
 
 a {
@@ -318,21 +336,104 @@ strong, b {
     box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
     background:#46a2c7;
     display:block;
-    height:420px;
+    height:360px;
+}
+
+.solutions-list {
+    padding: 20px 0 20px 0;
 }
 
 .solutions-list > li {
     display: inline-block;
-}
-
-.solutions-list > li > figure {
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.solutions-list > li > a > figure {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.solutions-list > li > a > figure > span {
+    height:40px;
+}
+
+.solutions-list > li > a > figure > figcaption {
+    padding-top:10px;
+}
+
+.solutions-list > li a {
+    color:#FFF;
+    text-decoration: none;
+    outline:0;
 }
 
 .section-solutions .section-container > h1 {
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
+}
+
+.more-solutions-wrapper {
+    text-align:center;
+}
+
+div.icon-1 {
+    height:63px;
+    background: url(../img/solution_icon_biz-analitics.png) no-repeat center center;
+}
+div.icon-1:hover {
+    height:63px;
+    background: url(../img/solution_icon_biz-analitics_hover.png) no-repeat center center;
+}
+
+div.icon-2 {
+    height:63px;
+    background: url(../img/solution_icon_diti-cx.png) no-repeat center center;
+}
+div.icon-2:hover {
+    height:63px;
+    background: url(../img/solution_icon_diti-cx_hover.png) no-repeat center center;
+}
+
+div.icon-3 {
+    height:63px;
+    background: url(../img/solution_icon_smart-money.png) no-repeat center center;
+}
+div.icon-3:hover {
+    height:63px;
+    background: url(../img/solution_icon_smart-money_hover.png) no-repeat center center;
+}
+
+div.icon-4 {
+    height:63px;
+    background: url(../img/solution_icon_optimize-efficnt.png) no-repeat center center;
+}
+div.icon-4:hover {
+    height:63px;
+    background: url(../img/solution_icon_optimize-efficnt_hover.png) no-repeat center center;
+}
+
+div.icon-5 {
+    height:63px;
+    background: url(../img/solution_icon_personal.png) no-repeat center center;
+}
+div.icon-5:hover {
+    height:63px;
+    background: url(../img/solution_icon_personal_hover.png) no-repeat center center;
+}
+
+div.icon-6 {
+    height:63px;
+    background: url(../img/solution_icon_biz-transform.png) no-repeat center center;
+}
+div.icon-6:hover {
+    height:63px;
+    background: url(../img/solution_icon_biz-transform_hover.png)  no-repeat center center;
 }
 
 
