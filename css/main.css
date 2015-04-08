@@ -19,6 +19,39 @@
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5)
 }
 
+.search_field {
+    display: inline-block;
+    float:right;
+    padding-top:45px;
+    position:relative;
+}
+
+.search_field input {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height:20px;
+    outline: none;
+    padding-left: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+.search_field button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display:inline-block;
+    position:relative;
+    right:33px;
+    top:-1px;
+}
+
+.search_field button img {
+width:20px;
+height:20px;
+}
+
 .nav-container {
     background-color: #fff;
     padding: 0;
@@ -240,7 +273,7 @@ strong, b {
     margin-right: 20px;
     opacity: 0.85;
     padding: 10px 14px;
-    width: 264px;
+    width: 269px;
     cursor: pointer;
 }
 
