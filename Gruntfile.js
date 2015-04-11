@@ -29,8 +29,21 @@ module.exports = function(grunt) {
       	spawn: false,
         //livereload: 8080
     	}
-  	}
-},
+  	},
+        css: {
+            files: '**/*.css',
+            options: {
+                livereload: true
+            }
+        },
+        html: {
+            files: ['index.html','**/*.css'],
+            options: {
+                livereload: true
+            }
+
+
+} },
 validation: {
 			options: {
 				reset: grunt.option('reset') || false,
