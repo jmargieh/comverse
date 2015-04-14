@@ -8,6 +8,13 @@
    STYLING COMVERSE WEBSITE - JAWAD's CUSTOM STYLE
    ========================================================================== */
 
+.body-guide {
+    background-color: #c9c9c9;
+  width: 960px;
+  border: 1px solid #FFF;
+  padding: 8px;
+}
+
 .comverse-header {
     width: 100%;
     height: 75px;
@@ -223,6 +230,10 @@ a {
     text-decoration: none;
 }
 
+hr {
+    background-color:white;
+}
+
 h1{
     color:#FFF;
     font-weight:100;
@@ -245,6 +256,9 @@ h3{
     margin-bottom:0.53em;
 }
 
+h1, h2, h3, h4, h4, h5, h6 {
+    color:#FFF;
+}
 
 
 strong, b {
