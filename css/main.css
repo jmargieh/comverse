@@ -343,6 +343,53 @@ strong, b {
   background: -moz-linear-gradient(top,  #36A8E1,  #1898D7);
 }
 
+ol.carousel-nav {
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+    bottom: 250px;
+    left: 0;
+    font-size: 0rem;
+    text-align: center;
+}
+
+ol.carousel-slides {
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+}
+
+.carousel-slides ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.carousel-slides ul li {
+    margin-bottom: 4px;
+}
+
+.carousel-nav li {
+    width: 12px;
+    height: 12px;
+    background-color: #E5E5E5;
+    color: #e5e5e5;
+    float: left;
+    margin-left: 5px;
+    padding: 0;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.carousel-nav li:hover {
+    background-color: #3399CC;
+    color: #3399CC;
+}
+
+li.selected {
+    background-color: #3399CC;
+    color: #3399CC;
+}
+
 .section-solutions{
     box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
     background:#46a2c7;
