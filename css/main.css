@@ -1130,6 +1130,7 @@ input[type=checkbox] {
     margin: 0;
     width:auto;
     opacity:1;
+    margin-top: 10px;
 }
 
 .carousel-nav li {
