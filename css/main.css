@@ -762,6 +762,10 @@ h1.event-date {
 }
 
 
+.mobile-navigation {
+    display: none;
+}
+
 
 
 
@@ -992,7 +996,395 @@ ul.footer-menu {
     margin-left: 0px;
 }
 
+.footer-nav-mobile {
+    display: none;
+}
 
+.mobile-navigation {
+    display: none;
+}
+
+.main-nav-mobile ul {
+    display: none;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+
+
+/*  ==========================================================================
+    MEDIA QUERIES
+    ==========================================================================*/
+
+@media all and (max-width:1004px) {
+
+.nav-container {
+    background-color: #fff;
+    padding: 0;
+    height: 75px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.navbar {
+    font-size:11px;
+}
+
+.comverse-logo {
+  padding: 28px 5px;
+}
+
+.comverse-logo > img {
+    width: 92px;
+    height: 31px;
+}
+
+.section-container {
+    padding: 0;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.events-list > li {
+    width:222px;
+}
+
+.rounded-cube {
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 20px;
+  opacity: 0.85;
+  padding: 10px 14px;
+  width: 205px;
+  cursor: pointer;
+}
+
+.solutions-list > li {
+    width: 120px;
+}
+
+.clients-list > li > blockquote > p {
+    font-size:13px;
+}
+
+.person-details > p > a {
+    font-size:11px;
+}
+
+.person-details > p {
+    font-size:11px;
+}
+
+.person-logo {
+    display: inline-block;
+    max-width:80px;
+}
+
+.person-logo > img {
+    width:88px;
+}
+
+.clients-list > li > blockquote {
+    padding:8px;
+}
+
+.company {
+    margin: 5px 7px 0 0;
+    width: 30%;
+}
+
+.clients-list > li {
+    width:31%;
+    margin:3px;
+}
+
+.logos-top > .company {
+    margin: 0 4px 0 0;
+}
+
+.footer-block {
+    max-width:768px;
+    min-width:768px;
+}
+
+.footer-box {
+    display:none;
+}
+
+.footer-links-column {
+    margin-right:74px;
+}
+
+}
+
+@media all and (max-width:768px) {
+
+.search_field input {
+    display: none;
+}
+
+.rounded-cube {
+    display: block;
+    border-radius: 0px;
+    margin: 0;
+    width:auto;
+    opacity:1;
+}
+
+.carousel-nav li {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 5px;
+    padding: 0;
+    border-radius: 3px;
+    color: #565656;
+}
+
+ol.carousel-nav {
+    font-size:1rem;
+    padding: 5px;
+}
+
+.carousel-nav li:hover {
+    background-color: #3399CC;
+    color: #FFF;
+}
+
+h1 {
+    padding: 5px;
+}
+
+h3{
+    padding: 5px;
+}
+
+.nav-side-links {
+    display: none;
+}
+
+.solutions-list > li {
+    width:32%;
+}
+
+.section-solutions {
+    height:540px;
+}
+
+.events-list > li {
+    display:block;
+    list-style-type: none;
+    width:auto;
+}
+
+.events-list > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section-events {
+    height: 700px;
+}
+
+.clients-list > li {
+    width: 240px;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+.clients-list li:nth-child(1) {
+    display: none;
+}
+
+.section-clients {
+    height: 700px;
+}
+
+.section-clients .section-container .more-stories {
+    left:36%;
+}
+
+    .footer-nav-mobile {
+        display: block;
+        background-color: #2C2C2C;
+        margin-bottom: 16px;
+        margin: 0;
+        list-style: none;
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+
+
+.footer-nav-mobile li {
+    color:white;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 10px;
+}
+
+.footer-nav-mobile li:hover {
+    background-color: #BCBCBC;
+}
+
+.footer-nav-mobile li > a {
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-links{
+    display:none;
+}
+
+footer {
+    height:auto;
+}
+
+.footer-nav {
+    margin:0;
+}
+
+.navbar {
+    display: none;
+}
+
+.comverse-logo {
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
+
+.comverse-logo > img {
+      float: none;
+    margin: 0 auto;
+    display: inherit;
+}
+
+
+    .mobile-navigation {
+        display: block;
+    }
+
+
+    label {
+        display: block;
+        border: 1px solid #d9d9d9;
+        border-radius: 5px;
+        text-decoration: none;
+        background: linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    label.mobile-nav {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        margin: 5px;
+        padding:5px;
+    }
+
+    .icon-bar {
+        display: block;
+        background-color: #a0a0a0;
+        width: 30px;
+        height: 3px;
+        margin: 3px auto;
+    }
+
+    .icon-bar:not(:first-child) {
+        margin-top: 2px;
+    }
+
+    .main-nav-mobile {
+        display: none;
+        list-style: none;
+        text-transform: uppercase;
+        font: 1.2rem "Open Sans";
+        position: absolute;
+        left: 0;
+        top:0;
+        z-index: 1;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .main-nav-mobile ul {
+        list-style: none;
+        background: white;
+        padding: 0;
+    }
+
+    .main-nav-mobile li {
+        color: #333333;
+    }
+
+    .main-nav-mobile label {
+        width: 100%;
+        border-radius: 0;
+        background : #FFF;
+    }
+
+    .main-nav-mobile li a,
+    .main-nav-mobile label {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px;
+    height: 2rem;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #585951;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #fff;
+    font: 14px Arial;
+    text-decoration: none;
+    line-height: 2.1rem;
+    }
+
+    input[type="checkbox"]:checked ~ ul {
+        display: block;
+        top:56px;
+    }
+
+    .main-nav-mobile input[type="checkbox"]:checked ~ label {
+        background: url("../img/arrow-down.png") no-repeat scroll 6px center, white;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    label.mobile-search {
+        float: right;
+        background: url("../img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    input[type="checkbox"]:checked + div {
+        display: block;
+        top:50px;
+        left:-272px;
+        right:0;
+        background-color: white;
+        z-index: 2;
+    }
+
+    input [type="checkbox"]:checked + div > input {
+        display: block;
+    }
+
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
